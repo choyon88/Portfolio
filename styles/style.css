@@ -4,19 +4,26 @@
     font-family: 'Open Sans' sans-serif;
 
 }
+section{
+    margin-top: 130px;
+    
+}
 .heading{
     background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right,left;
+    background-position: bottom right,center left;
+    background-size: 800px, 85px;
+   height: 100vh;
     
-
 }
 /* nav and logo design */
 nav{
+    
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
+    padding-top: 30px;
 }
 nav .item ul{
     display: flex;
@@ -69,8 +76,8 @@ nav ul li{
 }
 
 .images img{
-    height: 450px;
-    width: 320px;
+    height: 550px;
+    width: 350px;
 }
 main{
     max-width: 1140px;
@@ -78,23 +85,172 @@ main{
 }
 /* about section design */
 .about{
-    margin-top: 130px;
+    
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
+    text-align: center;
 }
 .section-tittle{
 text-align: center;
-margin-bottom: 30px;
+margin-bottom: 50px;
+font-size: 45px;
 }
 .about-description{
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+    
 }
 
 /* about details */
 .about-details{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    line-height: 1px;
+}
+/* skills part design start here */
+.skills{
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    
+    
+}
+.skill-description{
+    color: #757575;
+    font-size: 18px;
+    margin: 0 200px 50px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill-card{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.logo img{
+   margin-left: 80px;
+}
+.card-text{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+/* resume style */
+
+
+.summary-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+    width: 100%;
+    
+}
+
+
+.edu-exp-tittle{
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+.edu-exp-sub-tittle{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.edu-exp-tittle-detail{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #757575;
+}
+.edue-discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 50px;
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-btn{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* form section */
+
+.form-container{
+    display: flex;
+    gap: 110px;
+   margin-bottom: 80px;
+}
+.contact{
+    
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    width: 50%;
+}
+.form-details{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    width: 50%;
+}
+.contact-title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #181818;
+}
+.sub-titlle{
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.info{
+    margin-top: 28px;
+}
+.name, .email, input{
+    border: none;
+    padding: 15px;
+
+    border-radius: 5px;
+   
+}
+.texta input{
+    border: none;
+    border-radius: 5px;
+    
+}
+::placeholder{
+    padding: 5px;
+    
+}
+.icon li{
+    display: inline-block;
+}
+.icon li a{
+    padding: 10px;
+}
+.btn-text-submit{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    height: 64px;
+    border-radius: 5px;
+    padding: 18px 35px;
+    background:#FD6E0A; 
+    margin-top: 10px;
 }
